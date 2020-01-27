@@ -5,7 +5,7 @@ var givenName = "Addison";
 // to the remainder of dividing 20 by 6.
 var candies = 20;
 var people = 6;
-var leftover = (candies + people) / 13;
+var leftover = candies % people;
 
 // 3. Create a function called greeting that returns "Hello, <name>!",
 // where <name> is the name given as an argument to the function.
