@@ -30,8 +30,8 @@ function isOdd(value) {
 // 6. Create a function called fahrenheitToCelsius that takes a
 // Fahrenheit temperature as an argument and returns the
 // temperature in Celsius.
-function isEven(value) {
-  if (value % 2 == 0) {
+function isEven(num) {
+  if (num % 2 == 0) {
     return true;
   } else {
     return false;
