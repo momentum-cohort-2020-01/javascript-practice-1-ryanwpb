@@ -59,6 +59,13 @@ fahrenheitToKelvin = far => {
 // 8. Create a function called lesser that takes two numbers as
 // arguments and returns the lesser of them. This function should
 // use an if/else statement.
+lesser = (a, b) => {
+  if (a < b) {
+    return a;
+  } else {
+    return b;
+  }
+};
 
 // 9. Create a function called multigreeting that takes a name
 // and a language code and returns a version of "Hello, <name>!"
