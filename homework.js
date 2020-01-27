@@ -17,11 +17,7 @@ function greeting(Chase) {
 // return true if it is odd and false if it is not. An odd number is a
 // number which, when divided by 2, has a remainder of 1 or -1.
 function isOdd(num) {
-  if (num % 1 == 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return num % 2 == 1 || num % 2 == -1;
 }
 
 // 5. Create a function called isEven that, given a number, will
@@ -37,7 +33,8 @@ function isEven(num) {
 
 // 6. Create a function called fahrenheitToCelsius that takes a
 // Fahrenheit temperature as an argument and returns the
-// temperature in Celsius.
+// temperature in Celsius.{
+function fahrenheitToCelsius() {}
 
 // 6. Create a function called celsiusToFahrenheit that takes a
 // Celsius temperature as an argument and returns the
